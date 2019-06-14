@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+html{
+	background-image: url(../images/1383836332_pogruzchik-kolesnyy-frontalnyy-jcb-427-ht.jpg);
+	background-position: center 0%;
+	background-attachment:fixed;
+	background-size:cover;
+}
+header{
+	background-color: dimgray;
+	padding-top:0.75%;
+	padding-bottom:0.5%;
+	padding-left:0px;
+	padding-right:0px;
+	width:auto;
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+}
+.text{
+	font-family: 'Exo 2', sans-serif;
+	font-size:xx-large;
+	position:absolute;
+	padding-left:3%;
+	padding-right:3%;
+	top:35%;
+	color:white;
+	text-shadow: 3px 3px 1px darkgray; 
+	
+	
+}
+header
+div
+img{
+	
+	border-color:darkslategray;
+	border-style:outset;
+	border-width:10px;
+	
+}
+#uniq1{
+	text-align:left;
+	font-size: x-small;
+	right:3%;
+	top:15%;
+	
+	
+}
+#uniq2{
+	font-weight:bold;
+	font-size:small;
+}
+#uniq3{
+	font-weight:bold;
+}
