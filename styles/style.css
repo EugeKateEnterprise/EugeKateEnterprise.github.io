@@ -15,6 +15,7 @@ header{
 	position:absolute;
 	top:0px;
 	left:0px;
+	display:flex;
 	
 }
 .text{
@@ -25,12 +26,12 @@ header{
 	padding-right:3%;
 	top:35%;
 	color:white;
-	text-shadow: 3px 3px 1px darkgray; 
+	
 	
 	
 }
 header
-div
+a
 img{
 	
 	border-color:darkslategray;
@@ -38,18 +39,67 @@ img{
 	border-width:10px;
 	
 }
-#uniq1{
+nav 
+a{
+	text-decoration:none;
+	display:block;
+	transition: .3s block;
+		
+}
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.TOP > li{
+	display:inline-block;
+	position:relative;
+	
+	
+}
+.TOP>li>a{
+	font-weight:bold;
+	padding:20px 30px;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:white;
+}
+.TOP .active, .TOP>li>a:hover,.SUB li a:hover{
+	color:violet;}
+.SUB{
+	position:absolute;
+	left:-1px;
+	z-index:5;
+	width:240px;
+	border-bottom:1px solid #ECF1F2;
+	visibility:hidden;
+	opacity:0;
+	transform: translateY(10px);
+	transition:.3s ease-in-out;
+}
+.SUB li {position: relative;}
+.SUB a{
+	background:white;
+	border:1px solid #ECF1F2;
+	color:#1c1c1c;
 	text-align:left;
-	font-size: x-small;
-	right:3%;
-	top:15%;
+	font-size:14px;
+	letter-spacing:1px;
+	padding: 0px 20px;
+}
+nav li:hover>.SUB{
+	visibility:visible;
+	opacity:1;
+	transform:translatey(10px);
+	transition:.3s linear;
+}
+#left{
+	text-align:left;
 	
-	
 }
-#uniq2{
-	font-weight:bold;
-	font-size:small;
+#right{
+	text-align:right;
+
 }
-#uniq3{
-	font-weight:bold;
-}
+
